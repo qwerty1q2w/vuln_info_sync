@@ -1,0 +1,30 @@
+[transforms/epss_lookup]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+
+[transforms/cisa_lookup]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+
+[lookups/cisa.csv]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+
+[lookups/epss.csv]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+
+[transforms/exploit_db_lookup]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+
+[lookups/exploit_db.csv]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+
