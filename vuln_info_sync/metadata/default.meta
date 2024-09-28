@@ -28,3 +28,13 @@ access = read : [ * ], write : [ admin ]
 export = system
 owner = admin
 
+[transforms/nvd_lookup]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+
+[lookups/nvd.csv]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+
